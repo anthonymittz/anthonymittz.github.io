@@ -6,7 +6,7 @@ export default function Home() {
     <p>This resource is in active development and will be available in the future.</p>
     <div className={styles.note}>
       <small>
-        Development began in January 2022.<br/>Initial release in production is expected no earlier than February 2022.
+        The development began in January 2022.<br/>Initial release in production is expected no earlier than February 2022.
       </small>
     </div>
   </main>

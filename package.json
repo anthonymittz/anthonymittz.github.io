@@ -1,5 +1,6 @@
 {
   "name": "anthonymittz.github.io",
+  "description": "A personal website",
   "private": false,
   "scripts": {
     "dev": "next dev",

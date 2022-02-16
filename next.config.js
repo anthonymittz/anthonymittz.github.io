@@ -2,6 +2,6 @@ const isProduction = process.env.NODE_ENV === "production";
 
 module.exports = {
   assetPrefix: isProduction ? '/' : '',
-  basePath: '',
+  // basePath: '',
   reactStrictMode: true,
 }

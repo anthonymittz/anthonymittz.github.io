@@ -1,4 +1,9 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# 
+# git push origin `git subtree split --prefix dist master`:gh-pages --force
+# git subtree split --prefix out -b gh-pages 
+# git push -f origin gh-pages:gh-pages 
+# git branch -D gh-pages 
 
 # dependencies
 /node_modules
@@ -10,7 +15,6 @@
 
 # next.js
 /.next/
-/out/
 
 # production
 /build
